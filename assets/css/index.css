@@ -147,14 +147,6 @@ a:hover {
 
 .site-footer {
   margin-top: 50px;
-  /* margin-bottom: 80px; */
-  /* display: flex; */
-  /* justify-content: flex-end; */
-  /* flex-wrap: wrap; */
-  /* padding: 12px 0; */
-  /* border-width: 3px; */
-  /* border-style: solid none; */
-  /* border-color: #000; */
 }
 
 .site-footer-item {
@@ -206,10 +198,10 @@ a:hover {
 
 .post-content p {
   hyphens: auto;
-  font-size: 1rem; /* 确认段落字体大小为 1rem */
-  line-height: 1.7; /* 确认段落行高 */
+  font-size: 1rem;
+  line-height: 1.7;
   margin-top: 0;
-  margin-bottom: 1.2em; /* 基于 1rem 的下边距 */
+  margin-bottom: 1.2em;
 }
 
 .post-content img {
@@ -232,7 +224,7 @@ a:hover {
 }
 
 .post-content h1 {
-  font-size: 1.8rem; /* 调整一级标题大小 (相对 1rem) */
+  font-size: 1.8rem;
   font-weight: 500;
   margin-top: 1.5em;
   margin-bottom: 0.8em;
@@ -242,9 +234,9 @@ a:hover {
 }
 
 .post-content h2 {
-  font-size: 1.5rem; /* 调整二级标题大小 */
+  font-size: 1.5rem;
   font-weight: 500;
-  margin-top: 1.8em; /* 稍微减小 h2 上边距 */
+  margin-top: 1.8em;
   margin-bottom: 0.8em;
   line-height: 1.3;
   padding-bottom: 0.3em;
@@ -252,47 +244,47 @@ a:hover {
 }
 
 .post-content h3 {
-  font-size: 1.25rem; /* 调整三级标题大小 */
+  font-size: 1.25rem;
   font-weight: 500;
-  margin-top: 1.6em; /* 稍微减小 h3 上边距 */
+  margin-top: 1.6em;
   margin-bottom: 0.6em;
   line-height: 1.4;
 }
 
 .post-content h4 {
-  font-size: 1.1rem; /* 调整四级标题大小 */
+  font-size: 1.1rem;
   font-weight: 500;
-  margin-top: 1.4em; /* 稍微减小 h4 上边距 */
+  margin-top: 1.4em;
   margin-bottom: 0.5em;
   line-height: 1.4;
 }
 
 .post-content table {
-  width: 100%; /* 或根据内容自适应 */
+  width: 100%;
   border-collapse: collapse;
   margin: 1.5em 0;
-  font-size: 0.95em; /* 表格内文字可稍小 */
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* 可选：加点阴影 */
+  font-size: 0.95em;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
 .post-content th,
 .post-content td {
   border: 1px solid #ddd;
-  padding: 10px 12px; /* 增加内边距 */
+  padding: 10px 12px;
   text-align: left;
 }
 
 .post-content th {
-  background-color: #f2f2f2; /* 表头背景色 */
+  background-color: #f2f2f2;
   font-weight: bold;
 }
 
 .post-content tr:nth-child(even) {
-  background-color: #f9f9f9; /* 斑马条纹 */
+  background-color: #f9f9f9;
 }
 
 .post-content tr:hover {
-  background-color: #f1f1f1; /* 悬停高亮行 */
+  background-color: #f1f1f1;
 }
 
 .related-content {
